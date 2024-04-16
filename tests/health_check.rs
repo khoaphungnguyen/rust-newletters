@@ -1,7 +1,7 @@
 use once_cell::sync::Lazy;
-use rustnewletter::configuration::{get_configuration, DatabaseSettings};
-use rustnewletter::startup::run;
-use rustnewletter::telemetry::{get_subscriber, init_subscriber};
+use rustnewsletter::configuration::{get_configuration, DatabaseSettings};
+use rustnewsletter::startup::run;
+use rustnewsletter::telemetry::{get_subscriber, init_subscriber};
 use secrecy::ExposeSecret;
 use sqlx::{Connection, Executor, PgConnection, PgPool};
 use std::net::TcpListener;
